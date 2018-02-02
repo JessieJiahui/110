@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height:100%;
+    color: #333;
+}
+body,dl,dd,h1,h2,h3,h4,h5,h6,p,form,button{
+    margin:0;
+    font-weight: normal;
+}
+body{
+    font-size:12px;
+    font-family:"microsoft yahei",Tahoma, Geneva, sans-serif;
+    height:100%;
+    color:#333;
+    
+}
+
+ul,ol,li{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+em,i{
+    font-style: normal;
+}
+img{
+    border:0;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+input,select,textarea{
+    vertical-align:middle;
+    resize:none;
+    border:0;
+    font-family:"microsoft yahei",Tahoma, Geneva, sans-serif;
+    outline: none;
+}
+
+dt,dd,label{
+    font-weight: normal;
+    margin:0;
+}
+button{
+    border:0;
+    background:none;
+}
+.ellipsisYc{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.wordBreakDh{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+.wordBreakDh4{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+
+.body_main{
+    position: relative;
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+

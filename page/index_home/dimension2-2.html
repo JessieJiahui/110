@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html><head lang="en">
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <!--bootstrap插件css包-->
+    <link rel="stylesheet" href="../../static/lib/bootstrap-3.3.0/css/bootstrap.min.css"/>
+    <!--日历插件cssbao-->
+    <link rel="stylesheet" href="../../static/lib/bootstrap-daterangepicker/bootstrap-daterangepicker.css"/>
+    <!--分页插件css包-->
+    <link rel="stylesheet" href="../../static/lib/paging/kkpager_blue.css"/>
+    <!--公共初始化css-->
+    <link rel="stylesheet" href="../../static/css/public.css"/>
+    <!--头部导航和footer底部-->
+    <link rel="stylesheet" href="../../static/css/navAndFooter.css"/>
+    <!--页面css-->
+    <link rel="stylesheet" href="../../static/css/alarmStyle.css"/>
+    <!--阿里巴巴图标库链接-->
+    <link rel="stylesheet" href="../../static/css/download/font_427721_9wjf0nulnubx1or/iconfont.css"/>
+    <!--页面css-->
+    <link rel="stylesheet" href="../../static/css/z-css.css"/>
+    <!--jQuery包-->
+    <script type="text/javascript" src="../../static/js/jquery-1.8.3.min.js"></script>
+    <!--优化滚动条Jquery插件包-->
+    <script type="text/javascript" src="../../static/lib/nicescroll/jquery.nicescroll.min.js"></script>
+    <!--分页插件包-->
+    <script type="text/javascript" src="../../static/lib/paging/kkpager.js"></script>
+    <!--日历包-->
+    <script type="text/javascript" src="../../static/lib/bootstrap-daterangepicker/moment.js"></script>
+    <script type="text/javascript" src="../../static/lib/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!--页面jQuery效果-->
+    <script type="text/javascript" src="../../static/js/public_police.js"></script>
+    <script type="text/javascript" src="../../static/js/z-js.js"></script>
+
+    
+</head>
+<body class="body_main Scroll">
+<!--导航-->
+    <div class="nav_main">
+        <div class="lago_main">
+            <a href="javascript:;" class="logo"></a>
+            <a href="javascript:;" class="logo_title">110警情智能分析平台</a>
+        </div>
+        <div class="nav_center">
+            <ul>
+                <li><a href="index_home.html">首页</a></li>
+                <li><a href="mining.html">线索挖掘</a></li>
+                <li><a href="dimensions.html" class="aclick">多维数据</a></li>
+                <li><a href="javascript:;">警情统计</a></li>
+                <li><a href="javascript:;">质量筛选</a></li>
+            </ul>
+        </div>
+        <div class="user_name">
+            <dl>
+                <dd>admin<i class="ico iconfont icon-xiala1"></i></dd>
+                <div class="safe_exit">
+                    <span class="span_saex"><i class="ico iconfont icon-anquan"></i>安全退出</span>
+                </div>
+            </dl>
+        </div>
+    </div>
+<!--content-->   
+   <div class="z-side">
+   		<div class="sidemenu">
+   			<ul class="m-level1">
+   				<li><a href="dimensions.html"><i class="ico iconfont icon-icon"></i>时空搜索</a></li>
+   				<li class="current"><a href="dimensions2-1.html"><i class="ico iconfont icon-iconset0357"></i>数据碰撞<i class="ico iconfont icon-xiala1"></i></a>
+   					<ul class="m-level2">
+   						<li class="current"><a href="dimensions2-1.html">黑中介</a></li>
+   						<li><a href="javascript:;">恐吓敲诈</a></li>
+   						<li><a href="javascript:;">涉黄敲诈</a></li>
+   						<li><a href="javascript:;">涉医警情</a></li>
+   						<li><a href="javascript:;">涉车警情</a></li>
+   						<li><a href="javascript:;">电信诈骗</a></li>
+   						<li><a href="javascript:;">商品售后诈骗</a></li>
+   						<li><a href="javascript:;">破坏社会稳定</a></li>
+   					</ul>
+   				</li>
+   			</ul>
+   		</div>
+   </div>
+   <div class="z-content">
+   		<div class="d-tools">
+			<a href="javascript:;" onClick="goBack()"><i class="ico iconfont icon-fanhui"></i></a>
+			<p>查询条件<label class="torange">CB0000000001</label></p>
+			<p>串并条件<label class="torange">13811847205</label></p>
+			<div class="z-export">
+				<a href="javascript:;"><i class="ico iconfont icon-daochu"></i>导出</a>
+			</div>
+
+	  </div>
+  		<div class="d-table d-table2">
+   			<div class="z-table Scroll">
+				<table cellpadding="0" cellspacing="0" border="0">
+					<tr>
+						<th>序号</th>
+						<th>警情编号</th>
+						<th>报警时间</th>
+						<th>报警类型</th>
+						<th width="50%">简情摘要</th>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					<tr>
+						<td>1</td>
+						<td>CB00000458541295285</td>
+						<td>2017-9-28 17:49:35</td>
+						<td>黑中介</td>
+						<td>龚先生报在小红门鸿博家园2期C区10栋2门1202，有3个喝醉酒的人来我家敲诈，有一个是永泰置地中介的人（是房管，叫白亮、手机号：13811847205）拿着斧头，对方敲诈我们150元，这3个人拿着斧子已经下楼走了，没有人受伤，他也住在鸿博家园，但不知道在几区，已告调度...</td>
+					</tr>
+					
+				</table>
+   			</div>
+   			<div class="z-pages">
+				<div id="kkpager"></div>
+			</div>
+   		</div>
+   		
+   		
+   </div>
+   
+    
+</body>
+
+</html>

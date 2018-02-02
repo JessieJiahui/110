@@ -1,0 +1,132 @@
+.nav_main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background: #1c3748;
+    padding:0 20px;
+}
+.lago_main{
+    width: auto;
+    height: 36px;
+    float: left;
+    margin-top: 7px;
+}
+.logo{
+    display: inline-block;
+    float: left;
+    width: 36px;
+    height: 36px;
+    background: url("../images/logo.png") no-repeat;
+}
+.logo_title{
+    display: inline-block;
+    float: left;
+    width: auto;
+    height: 36px;
+    line-height: 36px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-left: 8px;
+}
+.logo_title:hover{
+    color: #ffffff;
+}
+.nav_center{
+    float: left;
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 45px;
+}
+.nav_center ul li{
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav_center ul li a{
+    display: block;
+    padding: 0 25px;
+    color: #00d5e0;
+    height: 50px;
+    line-height: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.nav_center ul li a.aclick{
+    border-bottom: 2px solid #00d5e0;
+    text-decoration: none;
+}
+.nav_center ul li a:hover{
+    border-bottom: 2px solid #00d5e0;
+}
+.user_name{
+    height: 50px;
+    line-height: 50px;
+    width: auto;
+    float: right;
+}
+.user_name dl{
+    width:auto;
+    /*float: left;*/
+    height: 50px;
+    line-height: 50px;
+    cursor: pointer;
+    position: relative;
+}
+.user_name dl dd{
+    line-height: 50px;
+    height: 50px;
+    padding: 0 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.user_name dl dd:hover{
+    background: #022e45;
+}
+.user_name dl dd i.icon-xiala1{
+    font-size: 14px;
+    margin-left: 10px;
+    height: 50px;
+}
+.safe_exit{
+    display: none;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    background: #ffffff;
+    height: 45px;
+    z-index: 9999;
+    box-shadow:1px 2px 5px #e5e5e5;
+}
+
+.user_name dl:hover .safe_exit{
+    display: block;
+}
+.span_saex i.icon-anquan{
+    font-size: 16px;
+    margin-right: 5px;
+}
+.span_saex{
+    display:block;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    width: 100%;
+}
+
+
+
+
+
+

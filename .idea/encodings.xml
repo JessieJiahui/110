@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/static/css/alarmStyle.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/css/navAndFooter.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/css/public.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/static/js/public_police.js" charset="UTF-8" />
+  </component>
+</project>
